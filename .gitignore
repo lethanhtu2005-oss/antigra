@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+.vercel
+
+# Dữ liệu runtime của prototype (tạo tự động từ data/db.seed.json)
+/data/db.json
+
+# Environment secrets
+.env
+.env.*
+!.env.example
